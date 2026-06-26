@@ -7,8 +7,8 @@ import Search from './Search'
 function Topbar() {
     return (
         <div className='w-full h-20 flex flex-row items-center justify-between px-8 bg-white border-b border-[#BCCBB94D]'>
-            <div className='w-3/5 flex flex-row gap-12 items-center justify-center'>
-                <div className={` text-2xl text-[#161D16] font-bold ${geist.className}`}>ProjectVerse</div>
+            <div className='w-3/5 flex flex-row gap-12 items-center justify-start'>
+                <div className={` text-2xl text-[#161D16] ms-5 font-bold ${geist.className}`}>ProjectVerse</div>
                 <div className='w-3/6'><Search /></div>
             </div>
             <div className='flex flex-row justify-center items-center gap-4'>
